@@ -1,6 +1,5 @@
-![Mobile-iOS_ Testes de UI](https://github.com/user-attachments/assets/df674ae9-dacc-4621-b1a0-f72b135b3b8c)
+![Thumbnail GitHub](https://github.com/giovannamoeller/swiftui-animacoes-drag-gesture/assets/47362960/aaf38524-2a93-4995-9cac-77ec3e5782c8)
 
-![](https://img.shields.io/github/license/alura-cursos/android-com-kotlin-personalizando-ui)
 
 # ChefDelivery
 
@@ -22,7 +21,6 @@ A aplicação ChefDelivery é a simulação de um aplicativo de restaurantes par
 - Animação de escala para aumentar e diminuir o tamanho dos elementos;
 - Implementação de um botão customizado com efeito de deslizamento;
 - Carrossel automático com transição entre os itens a cada 3 segundos;
-- Busca de restaurantes usando search text.
 
 ## ✔️ Técnicas e tecnologias
 
@@ -35,12 +33,6 @@ A aplicação ChefDelivery é a simulação de um aplicativo de restaurantes par
 - `GeometryReader`: Recurso para obter informações sobre a geometria da tela;
 - `Timer`: Utilização de temporizadores para automatizar o carrossel;
 - `DragGesture`: Gesto que permite aos usuários interagirem com as visualizações por meio de movimentos de arrastar.
-- `Teste de unidade`: XCTest para escrever teste de unidade no projeto.
-- `Teste de unidade: Stub`: Testando dependências com stub.
-- `Teste de unidade: Mock`: Utilizando Mocker para testar métodos que fazem chamadas http.
-- `Teste de métodos assíncronos`: Configurando métodos de testes para aguardar o tempo de resposta e fazer o assert.
-- `Teste de UI`: Assegurando a qualidade do projeto com testes de UI.
-- `Teste de snapshot`: Garantindo a qualidade da UI, com screenshots para comparação de mudanças.
 
 E muito mais! 
  

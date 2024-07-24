@@ -12,6 +12,7 @@
 		03F6F1F12BE51ACC00CA5703 /* SearchStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F6F1EF2BE51ACC00CA5703 /* SearchStoreView.swift */; };
 		180B33692A16635500C1AFBC /* CarouselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B33682A16635500C1AFBC /* CarouselItemView.swift */; };
 		180B336F2A166A3200C1AFBC /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B336E2A166A3200C1AFBC /* CarouselTabView.swift */; };
+		180ED0572C4F064E007F6D9D /* PreviewSnapshots in Frameworks */ = {isa = PBXBuildFile; productRef = 180ED0562C4F064E007F6D9D /* PreviewSnapshots */; };
 		1828E78F2A151C6700B8A3C6 /* ChefDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828E78E2A151C6700B8A3C6 /* ChefDeliveryApp.swift */; };
 		1828E7912A151C6700B8A3C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828E7902A151C6700B8A3C6 /* ContentView.swift */; };
 		1828E7932A151C6800B8A3C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1828E7922A151C6800B8A3C6 /* Assets.xcassets */; };
@@ -26,6 +27,8 @@
 		1866FCA32C4EA1B70090607C /* ChefDeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866FCA22C4EA1B70090607C /* ChefDeliveryUITests.swift */; };
 		1866FCA52C4EA1B70090607C /* ChefDeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866FCA42C4EA1B70090607C /* ChefDeliveryUITestsLaunchTests.swift */; };
 		1866FCAC2C4EECBA0090607C /* OnboardingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866FCAB2C4EECBA0090607C /* OnboardingUITests.swift */; };
+		1866FCB02C4EFCE60090607C /* PreviewSnapshotsTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 1866FCAF2C4EFCE60090607C /* PreviewSnapshotsTesting */; };
+		1866FCB32C4EFDAE0090607C /* OrderTypeGridViewSnapshotTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866FCB22C4EFDAE0090607C /* OrderTypeGridViewSnapshotTest.swift */; };
 		187C24822BE523650030193A /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C24812BE523650030193A /* SearchService.swift */; };
 		187C24852BE536820030193A /* SearchStoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C24842BE536820030193A /* SearchStoreViewModel.swift */; };
 		187C24952BE556DC0030193A /* SearchStoreViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C24942BE556DC0030193A /* SearchStoreViewModelTests.swift */; };
@@ -84,6 +87,7 @@
 		1866FCA22C4EA1B70090607C /* ChefDeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryUITests.swift; sourceTree = "<group>"; };
 		1866FCA42C4EA1B70090607C /* ChefDeliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1866FCAB2C4EECBA0090607C /* OnboardingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingUITests.swift; sourceTree = "<group>"; };
+		1866FCB22C4EFDAE0090607C /* OrderTypeGridViewSnapshotTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridViewSnapshotTest.swift; sourceTree = "<group>"; };
 		187C24812BE523650030193A /* SearchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
 		187C24842BE536820030193A /* SearchStoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStoreViewModel.swift; sourceTree = "<group>"; };
 		187C248A2BE555EC0030193A /* ChefDeliveryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChefDeliveryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +114,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				184E5BF82A5073090035CED1 /* Alamofire in Frameworks */,
+				180ED0572C4F064E007F6D9D /* PreviewSnapshots in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1866FCB02C4EFCE60090607C /* PreviewSnapshotsTesting in Frameworks */,
 				18F7BF002BF7EABB004BF722 /* Mocker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,6 +185,7 @@
 				187C248B2BE555EC0030193A /* ChefDeliveryTests */,
 				1866FCA12C4EA1B70090607C /* ChefDeliveryUITests */,
 				1828E78C2A151C6700B8A3C6 /* Products */,
+				1866FCAE2C4EFCE60090607C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -271,6 +278,21 @@
 			path = ChefDeliveryUITests;
 			sourceTree = "<group>";
 		};
+		1866FCAE2C4EFCE60090607C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1866FCB12C4EFD320090607C /* SnapshotsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1866FCB22C4EFDAE0090607C /* OrderTypeGridViewSnapshotTest.swift */,
+			);
+			path = SnapshotsTests;
+			sourceTree = "<group>";
+		};
 		187C24832BE536620030193A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,6 +304,7 @@
 		187C248B2BE555EC0030193A /* ChefDeliveryTests */ = {
 			isa = PBXGroup;
 			children = (
+				1866FCB12C4EFD320090607C /* SnapshotsTests */,
 				18F7BF012BF7EB0A004BF722 /* Networking */,
 				187C24932BE5565C0030193A /* ViewModel */,
 			);
@@ -361,6 +384,7 @@
 			name = ChefDelivery;
 			packageProductDependencies = (
 				184E5BF72A5073090035CED1 /* Alamofire */,
+				180ED0562C4F064E007F6D9D /* PreviewSnapshots */,
 			);
 			productName = ChefDelivery;
 			productReference = 1828E78B2A151C6700B8A3C6 /* ChefDelivery.app */;
@@ -400,6 +424,7 @@
 			name = ChefDeliveryTests;
 			packageProductDependencies = (
 				18F7BEFF2BF7EABB004BF722 /* Mocker */,
+				1866FCAF2C4EFCE60090607C /* PreviewSnapshotsTesting */,
 			);
 			productName = ChefDeliveryTests;
 			productReference = 187C248A2BE555EC0030193A /* ChefDeliveryTests.xctest */;
@@ -441,6 +466,7 @@
 			packageReferences = (
 				184E5BF62A5073090035CED1 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				18F7BEFE2BF7EABB004BF722 /* XCRemoteSwiftPackageReference "Mocker" */,
+				1866FCAD2C4EF9DA0090607C /* XCRemoteSwiftPackageReference "swiftui-preview-snapshots" */,
 			);
 			productRefGroup = 1828E78C2A151C6700B8A3C6 /* Products */;
 			projectDirPath = "";
@@ -530,6 +556,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				187C24952BE556DC0030193A /* SearchStoreViewModelTests.swift in Sources */,
+				1866FCB32C4EFDAE0090607C /* OrderTypeGridViewSnapshotTest.swift in Sources */,
 				18F7BF032BF7EB48004BF722 /* SearchServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -863,6 +890,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		1866FCAD2C4EF9DA0090607C /* XCRemoteSwiftPackageReference "swiftui-preview-snapshots" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/doordash-oss/swiftui-preview-snapshots";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		18F7BEFE2BF7EABB004BF722 /* XCRemoteSwiftPackageReference "Mocker" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/WeTransfer/Mocker.git";
@@ -874,10 +909,20 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		180ED0562C4F064E007F6D9D /* PreviewSnapshots */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1866FCAD2C4EF9DA0090607C /* XCRemoteSwiftPackageReference "swiftui-preview-snapshots" */;
+			productName = PreviewSnapshots;
+		};
 		184E5BF72A5073090035CED1 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 184E5BF62A5073090035CED1 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		1866FCAF2C4EFCE60090607C /* PreviewSnapshotsTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1866FCAD2C4EF9DA0090607C /* XCRemoteSwiftPackageReference "swiftui-preview-snapshots" */;
+			productName = PreviewSnapshotsTesting;
 		};
 		18F7BEFF2BF7EABB004BF722 /* Mocker */ = {
 			isa = XCSwiftPackageProductDependency;

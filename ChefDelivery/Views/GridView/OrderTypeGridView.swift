@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import PreviewSnapshots
 
 struct OrderTypeGridView: View {
     
@@ -29,5 +30,15 @@ struct OrderTypeGridView_Previews: PreviewProvider {
     static var previews: some View {
         OrderTypeGridView()
             .previewLayout(.sizeThatFits)
+    }
+    
+    static var snapshots: PreviewSnapshots<String> {
+        PreviewSnapshots(
+            configurations: [
+                .init(name: "Default state", state: "Test")
+            ],
+            configure: { state in
+                OrderTypeGridView()
+            })
     }
 }
