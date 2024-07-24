@@ -40,6 +40,17 @@
                ReferencedContainer = "container:ChefDelivery.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1866FC9F2C4EA1B70090607C"
+               BuildableName = "ChefDeliveryUITests.xctest"
+               BlueprintName = "ChefDeliveryUITests"
+               ReferencedContainer = "container:ChefDelivery.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

@@ -23,6 +23,8 @@
 		1828E7B72A15639C00B8A3C6 /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828E7B62A15639C00B8A3C6 /* OrderTypeView.swift */; };
 		184E5BF52A4F689E0035CED1 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E5BF42A4F689E0035CED1 /* HomeService.swift */; };
 		184E5BF82A5073090035CED1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 184E5BF72A5073090035CED1 /* Alamofire */; };
+		1866FCA32C4EA1B70090607C /* ChefDeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866FCA22C4EA1B70090607C /* ChefDeliveryUITests.swift */; };
+		1866FCA52C4EA1B70090607C /* ChefDeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866FCA42C4EA1B70090607C /* ChefDeliveryUITestsLaunchTests.swift */; };
 		187C24822BE523650030193A /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C24812BE523650030193A /* SearchService.swift */; };
 		187C24852BE536820030193A /* SearchStoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C24842BE536820030193A /* SearchStoreViewModel.swift */; };
 		187C24952BE556DC0030193A /* SearchStoreViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C24942BE556DC0030193A /* SearchStoreViewModelTests.swift */; };
@@ -44,6 +46,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1866FCA62C4EA1B70090607C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1828E7832A151C6700B8A3C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1828E78A2A151C6700B8A3C6;
+			remoteInfo = ChefDelivery;
+		};
 		187C248E2BE555EC0030193A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1828E7832A151C6700B8A3C6 /* Project object */;
@@ -70,6 +79,9 @@
 		1828E7B42A15594100B8A3C6 /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
 		1828E7B62A15639C00B8A3C6 /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
 		184E5BF42A4F689E0035CED1 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		1866FCA02C4EA1B70090607C /* ChefDeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChefDeliveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1866FCA22C4EA1B70090607C /* ChefDeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryUITests.swift; sourceTree = "<group>"; };
+		1866FCA42C4EA1B70090607C /* ChefDeliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		187C24812BE523650030193A /* SearchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
 		187C24842BE536820030193A /* SearchStoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStoreViewModel.swift; sourceTree = "<group>"; };
 		187C248A2BE555EC0030193A /* ChefDeliveryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChefDeliveryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +108,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				184E5BF82A5073090035CED1 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1866FC9D2C4EA1B70090607C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +175,7 @@
 			children = (
 				1828E78D2A151C6700B8A3C6 /* ChefDelivery */,
 				187C248B2BE555EC0030193A /* ChefDeliveryTests */,
+				1866FCA12C4EA1B70090607C /* ChefDeliveryUITests */,
 				1828E78C2A151C6700B8A3C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -165,6 +185,7 @@
 			children = (
 				1828E78B2A151C6700B8A3C6 /* ChefDelivery.app */,
 				187C248A2BE555EC0030193A /* ChefDeliveryTests.xctest */,
+				1866FCA02C4EA1B70090607C /* ChefDeliveryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,6 +257,15 @@
 				187C24812BE523650030193A /* SearchService.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		1866FCA12C4EA1B70090607C /* ChefDeliveryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1866FCA22C4EA1B70090607C /* ChefDeliveryUITests.swift */,
+				1866FCA42C4EA1B70090607C /* ChefDeliveryUITestsLaunchTests.swift */,
+			);
+			path = ChefDeliveryUITests;
 			sourceTree = "<group>";
 		};
 		187C24832BE536620030193A /* ViewModel */ = {
@@ -333,6 +363,24 @@
 			productReference = 1828E78B2A151C6700B8A3C6 /* ChefDelivery.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1866FC9F2C4EA1B70090607C /* ChefDeliveryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1866FCAA2C4EA1B70090607C /* Build configuration list for PBXNativeTarget "ChefDeliveryUITests" */;
+			buildPhases = (
+				1866FC9C2C4EA1B70090607C /* Sources */,
+				1866FC9D2C4EA1B70090607C /* Frameworks */,
+				1866FC9E2C4EA1B70090607C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1866FCA72C4EA1B70090607C /* PBXTargetDependency */,
+			);
+			name = ChefDeliveryUITests;
+			productName = ChefDeliveryUITests;
+			productReference = 1866FCA02C4EA1B70090607C /* ChefDeliveryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		187C24892BE555EC0030193A /* ChefDeliveryTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 187C24922BE555EC0030193A /* Build configuration list for PBXNativeTarget "ChefDeliveryTests" */;
@@ -361,11 +409,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					1828E78A2A151C6700B8A3C6 = {
 						CreatedOnToolsVersion = 14.3;
+					};
+					1866FC9F2C4EA1B70090607C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1828E78A2A151C6700B8A3C6;
 					};
 					187C24892BE555EC0030193A = {
 						CreatedOnToolsVersion = 15.2;
@@ -393,6 +445,7 @@
 			targets = (
 				1828E78A2A151C6700B8A3C6 /* ChefDelivery */,
 				187C24892BE555EC0030193A /* ChefDeliveryTests */,
+				1866FC9F2C4EA1B70090607C /* ChefDeliveryUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -404,6 +457,13 @@
 			files = (
 				1828E7962A151C6800B8A3C6 /* Preview Assets.xcassets in Resources */,
 				1828E7932A151C6800B8A3C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1866FC9E2C4EA1B70090607C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +512,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1866FC9C2C4EA1B70090607C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1866FCA52C4EA1B70090607C /* ChefDeliveryUITestsLaunchTests.swift in Sources */,
+				1866FCA32C4EA1B70090607C /* ChefDeliveryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		187C24862BE555EC0030193A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -464,6 +533,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1866FCA72C4EA1B70090607C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1828E78A2A151C6700B8A3C6 /* ChefDelivery */;
+			targetProxy = 1866FCA62C4EA1B70090607C /* PBXContainerItemProxy */;
+		};
 		187C248F2BE555EC0030193A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1828E78A2A151C6700B8A3C6 /* ChefDelivery */;
@@ -644,6 +718,49 @@
 			};
 			name = Release;
 		};
+		1866FCA82C4EA1B70090607C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.alura.ChefDeliveryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChefDelivery;
+			};
+			name = Debug;
+		};
+		1866FCA92C4EA1B70090607C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.alura.ChefDeliveryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChefDelivery;
+			};
+			name = Release;
+		};
 		187C24902BE555EC0030193A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -709,6 +826,15 @@
 			buildConfigurations = (
 				1828E79A2A151C6800B8A3C6 /* Debug */,
 				1828E79B2A151C6800B8A3C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1866FCAA2C4EA1B70090607C /* Build configuration list for PBXNativeTarget "ChefDeliveryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1866FCA82C4EA1B70090607C /* Debug */,
+				1866FCA92C4EA1B70090607C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
