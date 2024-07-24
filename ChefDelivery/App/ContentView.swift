@@ -55,6 +55,7 @@ struct ContentView: View {
                 await getStores()
             }
         }
+        .accessibilityIdentifier("ContentView")
     }
     
     // MARK: - Methods

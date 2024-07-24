@@ -106,6 +106,7 @@ struct HomeView: View {
                                     .font(.system(size: 24, weight: .bold))
                                     .foregroundColor(.white)
                             }
+                            .accessibilityIdentifier("dragButton")
                             
                             Spacer()
                         }

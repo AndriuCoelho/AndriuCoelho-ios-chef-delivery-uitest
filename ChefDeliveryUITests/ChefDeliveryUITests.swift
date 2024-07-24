@@ -67,4 +67,19 @@ final class ChefDeliveryUITests: XCTestCase {
         XCTAssertTrue(result.exists, "O resultado 'Casa do Sushi' deve existir")
         result.tap()
     }
+    
+    func testSearchForNonExistingName() {
+        let app = XCUIApplication()
+        app.launch()
+        
+        app.tabBars["Tab Bar"].buttons["Busca"].tap()
+        
+        let searchField = app.collectionViews.textFields["Pesquisar em Chef Delivery"]
+        XCTAssertTrue(searchField.exists, "O campo de texto deve existir")
+        searchField.tap()
+        searchField.typeText("Blablabla")
+        
+        let placeholderImage = app.images["magnifyingglass"]
+        XCTAssertTrue(placeholderImage.waitForExistence(timeout: 3), "A imagem de placeholder deve aparecer para esse resultado de busca")
+    }
 }
